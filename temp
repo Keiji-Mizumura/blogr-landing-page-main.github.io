@@ -1,0 +1,587 @@
+<div class="landing">
+      <div class="background-container">
+        <div class="container">
+          <header>
+            <div class="main-navigation">
+              <h1 class="title">Blogr</h1>
+              <nav>
+                <ul>
+                  <li>
+                    Product
+                    <span class="arrows"
+                      ><img src="images/icon-arrow-light.svg"
+                    /></span>
+                    <div class="sub-nav">
+                      <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Integrations</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    Company
+                    <span class="arrows"
+                      ><img src="images/icon-arrow-light.svg"
+                    /></span>
+                    <div class="sub-nav">
+                      <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    Connect
+                    <span class="arrows"
+                      ><img src="images/icon-arrow-light.svg"
+                    /></span>
+                    <div class="sub-nav">
+                      <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="controls">
+              <a href="#" class="btn">Login</a>
+              <a href="#" class="btn primary">Sign Up</a>
+            </div>
+          </header>
+
+          <section class="hero">
+            <div class="hero-text">
+              <h1>A modern publishing platform</h1>
+              <h3>Grow your audience and build your online brand</h3>
+            </div>
+
+            <div class="hero-controls">
+              <a href="#" class="btn primary">Start For Free</a>
+              <a href="#" class="btn secondary">Learn More</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="content">
+        <div class="container">
+          <div class="full-content">
+            <div class="content-header">
+              <h1>Designed for the future</h1>
+            </div>
+
+            <div class="content-box">
+              <div class="content-item">
+                <div class="content-text">
+                  <h2>Introducing an extensible editor</h2>
+                  <p>
+                    Blogr features an exceedingly intuitive interface which lets
+                    you focus on one thing: creating content. The editor
+                    supports management of multiple blogs and allows easy
+                    manipulation of embeds such as images, videos, and Markdown.
+                    Extensibility with plugins and themes provide easy ways to
+                    add functionality or change the looks of a blog.
+                  </p>
+                </div>
+
+                <div class="content-text">
+                  <h2>Robust content management</h2>
+                  <p>
+                    Flexible content management enables users to easily move
+                    through posts. Increase the usability of your blog by adding
+                    customized categories, sections, format, or flow. With this
+                    functionality, you’re in full control.
+                  </p>
+                </div>
+              </div>
+
+              <div class="content-item">
+                <img src='images/illustration-editor-desktop.svg' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content" id="second">
+        <div class="container">
+          <div class="content-box">
+            <div class="content-item">
+              <img id="phones" src="images/illustration-phones.svg" />
+            </div>
+
+            <div class="content-item" id="second-content">
+              <h1>State of the Art Infrastructure</h1>
+              <p>
+                With reliability and speed in mind, worldwide data centers
+                provide the backbone for ultra-fast connectivity. This ensures
+                your site will load instantly, no matter where your readers are,
+                keeping your site competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content" id="third">
+        <div class="container">
+          <div class="content-box">
+            <div class="content-item">
+              <img src="images/illustration-laptop-desktop.svg" id="laptop"/>
+            </div>
+
+            <div class="content-item">
+              <div class="content-text">
+                <h2>Free, open, simple</h2>
+                <p>
+                  Blogr is a free and open source application backed by a large
+                  community of helpful developers. It supports features such as
+                  code syntax highlighting, RSS feeds, social media integration,
+                  third-party commenting tools, and works seamlessly with Google
+                  Analytics. The architecture is clean and is relatively easy to
+                  learn.
+                </p>
+              </div>
+
+              <div class="content-text">
+                <h2>Powerful tooling</h2>
+                <p>
+                  Batteries included. We built a simple and straightforward CLI
+                  tool that makes customization and deployment a breeze, but
+                  capable of producing even the most complicated sites.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="footer-col">
+            <h1 class="title">Blogr</h1>
+          </div>
+          <div class="footer-col footer-nav">
+            <h3>Product</h3>
+            <ul>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
+          </div>
+          <div class="footer-col footer-nav">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer-col footer-nav">
+            <h3>Connect</h3>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+
+/* Global Styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 35px;
+    height: inherit;
+}
+
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px){
+    .container{
+        width: 100%;
+    }
+}
+
+/* Button Properties */
+
+.btn{
+    color: #f1f1f1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+
+.primary{
+    width: 120px;
+    background-color: #fff;
+    color:  hsl(356, 100%, 66%);
+}
+
+.primary:hover{
+    background-color: hsl(355, 100%, 74%);
+    color: #f1f1f1;
+}
+
+.secondary{
+    width: 120px;
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
+}
+
+.secondary:hover{
+    background-color: #fff;
+    color: hsl(356, 100%, 66%);
+}
+
+/* Landing Styles */
+
+.landing{
+    background: linear-gradient(90deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-radius: 0 0 0 100px;
+    height: 750px;
+    overflow: hidden;
+}
+
+.landing > .background-container{
+    background: url('../images/bg-pattern-intro.svg');
+    overflow: hidden;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: 3500px;
+    background-position: 30% 50%;
+}
+
+/* Header Navigation */
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.main-navigation{
+    display: flex;
+}
+
+.main-navigation nav{
+    font-family: 'Overpass', sans-serif;
+    margin-left: 50px;
+}
+
+.main-navigation nav > ul{
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.main-navigation nav > ul > li{
+    color: #f1f1f1;
+    list-style: none;
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.main-navigation nav > ul > li:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.main-navigation nav > ul > li .arrows{
+    margin-left: 5px;
+}
+
+.main-navigation nav > ul > li:hover .arrows{
+    transform: rotate(180deg);
+}
+
+.main-navigation nav > ul > li:hover .sub-nav{
+    display: block;
+}
+
+.sub-nav{
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    padding: 20px;
+    min-width: 170px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+.sub-nav ul{
+    display: block;
+}
+
+.sub-nav ul li{
+    padding: 10px 0;
+}
+
+.sub-nav ul li a{
+    color: hsl(208, 49%, 24%);
+    font-weight: 300;
+}
+
+.sub-nav ul li a:hover{
+    font-weight: 600;
+}
+
+/* Hero  */
+
+.hero{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero-text h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.hero-text h3{
+    font-weight: 500;
+    margin-top: 20px;
+    color: #ddd;
+    font-size: 15px;
+}
+
+.hero-controls > * {
+    margin: 0 5px;
+}
+
+/* Content */
+
+.content{
+    position: relative;
+    padding: 200px 0;
+    font-size: 16px;
+    color: hsl(207, 13%, 34%);
+}
+
+.content-header{
+    text-align: center;
+    font-size: 25px;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 80px;
+}
+
+.content-box{
+    display: flex;
+    gap: 100px;
+}
+
+.content-item{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-text + .content-text{
+    margin-top: 50px;
+}
+
+.content-text h2{
+    color: hsl(208, 49%, 24%);
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.content-item img{
+    position: absolute;
+    width: 180%;
+}
+
+.content-text p{
+    line-height: 1.5;
+}
+
+/* Second part */
+
+#second{
+    margin-top: 100px;
+    background: linear-gradient(90deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    color: #fff;
+    border-radius: 0 100px 0 100px;
+}
+
+#second::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: url('../images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position-y: 100%;
+    background-position-x: -50%;
+}
+
+#phones{
+    left: -55px;
+    width: 120%;
+}
+
+#second-content{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+#second-content p{
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 400;
+    color: #ddd;
+}
+
+/* Third part */
+
+#third{
+    padding: 500px 0;
+}
+
+#laptop{
+    left: -740px;
+    width: 250%;
+}
+
+/* Footer */
+
+footer{
+    background-color: hsl(240, 10%, 16%);
+    border-radius: 0 100px 0 0;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-col{
+
+}
+
+footer .footer-nav h3{
+    padding-bottom: 30px;
+}
+
+footer .footer-nav > ul > li{
+    padding: 10px 0;
+}
+
+footer .footer-nav > ul > li > a{
+    color: rgb(224, 224, 224);
+}
+
+footer .footer-nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 760px){
+    .main-navigation > nav{
+        display: none;
+    }
+    header{
+        height: 130px;
+    }
+    .controls{
+        display: none;
+    }
+    .hero{
+        display: block;
+        padding-top: 50px;
+    }
+    .hero-text h1{
+        font-size: 45px;
+    }
+    .hero-text h3{
+        font-size: 25px;
+    }
+    .hero-controls {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        padding: 0 40px;
+    }      
+    .hero-controls > a{
+        width: 100%;
+        padding: 15px 0px !important;
+    }
+    .content-box{
+        display: block;
+        width: 100%;
+    }
+    .content-item{
+        width: 100%;
+    }
+    .content-item > img{
+        position: relative;
+        width: 100%;
+        border: 1px solid red;
+    }
+}

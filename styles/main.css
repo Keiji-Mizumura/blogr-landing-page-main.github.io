@@ -32,6 +32,12 @@ body{
     }
 }
 
+@media (max-width: 760px){
+    .container{
+        background-color: black;
+    }
+}
+
 /* Button Properties */
 
 .btn{
@@ -131,6 +137,10 @@ header{
 
 .main-navigation nav > ul > li .arrows{
     margin-left: 5px;
+}
+
+.main-navigation nav > ul > li:hover .arrows{
+    transform: rotate(180deg);
 }
 
 .main-navigation nav > ul > li:hover .sub-nav{
@@ -302,4 +312,31 @@ header{
 footer{
     background-color: hsl(240, 10%, 16%);
     border-radius: 0 100px 0 0;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-col{
+
+}
+
+footer .footer-nav h3{
+    padding-bottom: 30px;
+}
+
+footer .footer-nav > ul > li{
+    padding: 10px 0;
+}
+
+footer .footer-nav > ul > li > a{
+    color: rgb(224, 224, 224);
+}
+
+footer .footer-nav > ul > li > a:hover{
+    text-decoration: underline;
 }

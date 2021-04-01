@@ -13,9 +13,9 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 1250px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 35px;
     height: inherit;
 }
 
@@ -245,5 +245,61 @@ header{
     line-height: 1.5;
 }
 
+/* Second part */
 
+#second{
+    margin-top: 100px;
+    background: linear-gradient(90deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    color: #fff;
+    border-radius: 0 100px 0 100px;
+}
 
+#second::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: url('../images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position-y: 100%;
+    background-position-x: -50%;
+}
+
+#phones{
+    left: -55px;
+    width: 120%;
+}
+
+#second-content{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+#second-content p{
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 400;
+    color: #ddd;
+}
+
+/* Third part */
+
+#third{
+    padding: 500px 0;
+}
+
+#laptop{
+    left: -740px;
+    width: 250%;
+}
+
+/* Footer */
+
+footer{
+    background-color: hsl(240, 10%, 16%);
+    border-radius: 0 100px 0 0;
+}

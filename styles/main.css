@@ -19,13 +19,16 @@ html{
 .burger{
     display: flex;
     flex-direction: column;
-    gap: 6px;
 }
 
 .burger > .row{
     width: 32px;
     height: 2px;
     background-color: #ffffff;
+}
+
+.burger > .row + .row{
+    margin-top: 6px;
 }
 
 /* Arrow Icons */

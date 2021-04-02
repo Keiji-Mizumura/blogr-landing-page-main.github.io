@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 1em;
     list-style: none;
+    text-decoration: none;
 }
 
 html{
@@ -25,6 +26,7 @@ html{
     width: 32px;
     height: 2px;
     background-color: #ffffff;
+    transition: transform 300ms ease-in;
 }
 
 .burger > .row + .row{
@@ -32,8 +34,8 @@ html{
 }
 
 /* Arrow Icons */
-.arrow-icon{
-    
+.arrow-icon > img{
+    transition: transform 500ms;
 }
 
 /* Buttons */
@@ -140,7 +142,7 @@ html{
 
 /* Navigation */
 
-#navigation{
+#mobile-navigation{
     transition: transform 500ms;
     transform: scale(0);
     transform-origin: top right;
@@ -151,21 +153,23 @@ html{
     top: 125px;
     box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.24);
     border-radius: 5px;
+    padding: 0 24px;
 }
 
-#main-navigation{
+#mobile-main-navigation{
     font-family: 'Overpass', sans-serif;
     font-weight: 600;
     color: #1f3e5a;
     text-align: center;
 }
 
-#main-navigation li{
+#mobile-main-navigation li{
     margin: 24px 0;
     font-size: 18px;
+    cursor: pointer;
 }
 
-#navigation-buttons{
+#mobile-navigation-buttons{
     border-top: 1px solid #E8E4E4;
     margin: 24px;
     display: flex;
@@ -173,10 +177,23 @@ html{
     align-items: center;
 }
 
-#navigation-buttons > a{
+#mobile-navigation-buttons > a{
     margin: 10px 0;
 }
 
 #show-navigation{
     cursor: pointer;
+}
+
+.mobile-sub-nav{
+    background-color: #E8E4E4;
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 0px;
+    transition: 500ms ease-in;
+}
+
+.mobile-sub-nav > ul > li > a{
+    font-size: 16px;
+    color: #1F3E5A;
 }

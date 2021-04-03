@@ -197,3 +197,108 @@ html{
     font-size: 16px;
     color: #1F3E5A;
 }
+
+/* Contents */
+.contents{
+    margin-top: 100px;
+}
+
+.contents > .container > header{
+    font-size: 28px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #1F3E5A;
+}
+
+.content-box{
+    margin-top: 24px;
+}
+
+.content-box > article{
+    margin-top: 26px;
+}
+
+.content-box h2{
+    font-size: 28px;
+    padding: 12px 0;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #1F3E5A;
+}
+
+.content-box p{
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    color: #4C5862;
+    line-height: 28px;
+}
+
+/* First Content Image */
+
+#first-content-image > img{
+    width: 100%;
+}
+
+/* Second content dark bg */
+
+#second-content{
+    position: relative;
+}
+
+#dark-bg{
+    background: linear-gradient(90deg, #2D2E40, #3F4164);
+    border-radius: 0px 100px 0px 100px;
+    padding: 30vh 0 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#dark-bg::before{
+    content: "";
+    background: url('../images/bg-pattern-circles.svg');
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-size: 100%;
+    background-position: center top 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow: hidden;
+    border-radius: 0px 100px 0px 100px;
+}
+
+#dark-bg > .container > .content-box > h1{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Overpass';
+    font-weight: 600;
+    text-align: center;
+}
+
+#dark-bg > .container > .content-box > p{
+    color: #fff;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+#second-content-image {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+}
+
+#second-content-image > img{
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: -30vh;
+}
